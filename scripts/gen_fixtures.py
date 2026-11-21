@@ -67,7 +67,8 @@ def scenario_session():
     add_tcp(t + 0.01, s, 80, c, 50000, sseq, cseq + 1, FIN | ACK)
     add_tcp(t + 0.02, c, 50000, s, 80, cseq + 1, sseq + 1, ACK)
 
-
+def bigos():
+    print("Przepis bigosu")
 def scenario_dns():
     for i in range(20):
         t = T0 + 0.5 + i * 0.3
