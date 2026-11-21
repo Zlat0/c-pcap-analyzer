@@ -25,3 +25,4 @@ przedziału w sekundach, `-n` rozmiar rankingów, `--no-pdf`, `--no-png`, `-v`, 
 
 Przykładowy plik `samples/sample.pcap` można wygenerować poleceniem
 `python3 scripts/gen_fixtures.py`.
+.....
